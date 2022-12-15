@@ -1,0 +1,15 @@
+S 0 0
+C 0 4
+D 0 10
+G 0 11
+A 4 4
+B 12 4
+E 12 8
+
+S C
+S A
+C D
+D G
+A C
+A B
+A E

@@ -1,0 +1,38 @@
+S : [R1, Q]
+S % 1
+R1 : [P1, P2, P3, P4]
+R1 % 0.325 0.275 0.225 0.175
+P1 : [SW1, ST1]
+P1 % 1
+P2 : [SW2, ST2]
+P2 % 1
+P3 : [SW3, ST3]
+P3 % 1
+P4 : [SW4, ST4]
+P4 % 1
+SW1 : [WIN, LOSE]
+SW1  % 0.423 0.577
+SW2 : [WIN, LOSE]
+SW2 % 0.409 0.591
+SW3 : [WIN, LOSE]
+SW3 % 0.389 0.611
+SW4 : [WIN, LOSE]
+SW4 % 0.357 0.643
+ST1 : [WIN, LOSE]
+ST1 % 0.377 0.623
+ST2 : [WIN, LOSE]
+ST2 % 0.391 0.609
+ST3 : [WIN, LOSE]
+ST3 % 0.411 0.589
+ST4 : [WIN, LOSE]
+ST4 % 0.443 0.557
+WIN : [ST, Q]
+WIN % 1
+WIN=50.0
+LOSE=-30.0
+LOSE % 1
+Q=0.0
+LOSE : [ST, Q]
+ST=-2
+ST : [S]
+ST % 1
